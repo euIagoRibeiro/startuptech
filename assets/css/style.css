@@ -1,0 +1,55 @@
+
+/* Seletor Universal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* TAG Header */
+header {
+    background-color: #a7456d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: #000 solid 2px;
+    padding-bottom: 10px;
+}
+
+/* ID Logo Header*/
+#logo-header {
+    width: 300px;
+
+}
+
+
+/* ID Logo Header */
+#nav-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+/* Class Item Nav*/
+.item-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Class Icone Item Nav*/
+.icone-item-nav {
+    font-size: 25px;
+}
+
+.item-link-nav {
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
