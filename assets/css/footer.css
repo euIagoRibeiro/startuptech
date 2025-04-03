@@ -1,0 +1,52 @@
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    height: 150px;
+}
+
+#desenvolvedor {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#desenvolvedor > img {
+    width: 4vw;
+}
+
+#desenvolvedor-identificacao > p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#desenvolvedor-identificacao > h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+#desenvolvedor-servicos > ul {
+    list-style-type: none;
+    padding: 0;
+    font-weight: 300;
+}
+
+#redessociais {
+    color: var(--color-black);
+    font-size: 40px;
+    display: flex;
+    gap: 1rem;
+}
+
+#redessociais > a {
+    color: var(--color-black);
+    transition: all 1s ease;
+}
+
+#redessociais > a:hover {
+    color: var(--color-gray);
+    scale: 1.2;
+}

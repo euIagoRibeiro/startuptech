@@ -1,55 +1,33 @@
 
-/* Seletor Universal*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url(header.css);
+@import url(section1.css);
+@import url(section2.css);
+@import url(section3.css);
+@import url(section4.css);
+@import url(whatsapp.css);
+@import url(footer.css);
+
+:root {
+    --color-black: #000;
+    --color-white: #fff;
+    --color-gray: #dcdcdc;
+    --color-purple: #a721a7;
+    --color-whatsapp: #25D366;
+    --primary-font: "Poppins", sans-serif;
+    --second-font: "Orbitron", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-/* TAG Header */
-header {
-    background-color: #a7456d;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: #000 solid 2px;
-    padding-bottom: 10px;
-}
-
-/* ID Logo Header*/
-#logo-header {
-    width: 300px;
-
-}
-
-
-/* ID Logo Header */
-#nav-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
-
-}
-
-/* Class Item Nav*/
-.item-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-}
-
-/* Class Icone Item Nav*/
-.icone-item-nav {
-    font-size: 25px;
-}
-
-.item-link-nav {
-    text-decoration: none;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    font-family: var(--primary-font);
+    color: var(--color-black);
 }
