@@ -47,6 +47,6 @@ footer {
 }
 
 #redessociais > a:hover {
-    color: var(--color-gray);
+    color: var(--color-purple);
     scale: 1.2;
 }
