@@ -5,7 +5,7 @@ footer {
     justify-content: space-around;
     background-color: var(--color-white);
     color: var(--color-black);
-    height: 150px;
+    margin: 1% 0% 1% 0%;
 }
 
 #desenvolvedor {
@@ -54,6 +54,16 @@ footer {
 @media screen and (max-width: 430px) {
     footer {
         flex-direction: column;
+        gap: 3rem;
+        margin: 10% 0% 10% 0%;
+    }
+    
+    #desenvolvedor {
+        flex-direction: column;
+    }
+
+    #desenvolvedor > img {
+        width: 15vw;
     }
 
 }
