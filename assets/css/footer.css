@@ -50,3 +50,10 @@ footer {
     color: var(--color-purple);
     scale: 1.2;
 }
+
+@media screen and (max-width: 430px) {
+    footer {
+        flex-direction: column;
+    }
+
+}

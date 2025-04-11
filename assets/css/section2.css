@@ -53,13 +53,13 @@
 
 .card > p {
     font-weight: 200;
-    height: 15rem;
     margin: 10% 0% 10% 0%;
 }
 
 .card > button {
     outline: none;
-    padding: 5% 18% 5% 18%;
+    width: 10vw;
+    height: 5vh;
     font-size: 1rem;
     border: 2px solid var(--color-white);
     border-radius: 2rem;
@@ -76,4 +76,47 @@
     background-color: var(--color-purple);
     color: var(--color-white);
     border: 2px solid var(--color-black);
+}
+
+@media screen and (max-width: 430px) {
+    #servicos {
+        flex-direction: column;
+    }
+
+    #servicos > h2 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .cards {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .card {
+        padding: 2rem 2rem 2rem 2rem;
+        width: 80vw;
+        gap: 2rem;
+
+    }
+
+    .card > img {
+        width: 100%;
+        margin: 0% 0% 0% 0%
+    }
+
+    .card > h3 {
+        text-align: center;
+    }
+
+    .card > p {
+        text-align: justify;
+    }
+
+    .card > button {
+        height: 5vh;
+        width: 40vw;
+        margin: 0% 0% 0% 0%;
+
+    }
 }
